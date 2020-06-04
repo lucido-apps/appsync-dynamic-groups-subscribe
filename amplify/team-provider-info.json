@@ -10,6 +10,11 @@
             "StackName": "amplify-appsyncdynamicgroups-dev-90529",
             "StackId": "arn:aws:cloudformation:us-east-1:936803677114:stack/amplify-appsyncdynamicgroups-dev-90529/c8d10010-a631-11ea-8309-0a3fc8cbcb75",
             "AmplifyAppId": "d1f1kqysnca09k"
+        },
+        "categories": {
+            "auth": {
+                "appsyncdynamicgroups784006e0": {}
+            }
         }
     }
 }

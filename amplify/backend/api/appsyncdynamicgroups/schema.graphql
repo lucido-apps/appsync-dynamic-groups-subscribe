@@ -1,0 +1,11 @@
+type Task 
+  @model 
+  @auth(rules: [
+      { allow: owner }
+      { allow: groups, groupsField: "myGroups" }
+    ])
+{
+  id: ID!
+  title: String!
+  myGroups: [String]
+}
